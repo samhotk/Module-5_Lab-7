@@ -15,16 +15,23 @@
     <section id="planet-section">
       <h2>Selected Planets Overview</h2>
         <table class="planet-table image-row">
+          <tbody>
           <thead>
             <tr>
-              <th class="planet-header">Characteristic</th>
-              <th class="planet-header">Mercury</th>
-              <th class="planet-header">Venus</th>
-              <th class="planet-header">Earth</th>
-              <th class="planet-header">Mars</th>
+              <td class="planet-header">Characteristic</td>
+              <td class="planet-header">Mercury</td>
+              <td class="planet-header">Venus</td>
+              <td class="planet-header">Earth</td>
+              <td class="planet-header">Mars</td>
             </tr>
-          </thead>
-          <tbody>
+            <tr>
+              <td class="heading image">Images of planets</td>
+              <td><img src="images/mercury.jpg" alt="Mercury" class="planet-image"></td>
+              <td><img src="images/venus.jpg" alt="Venus" class="planet-image"></td>
+              <td><img src="images/earth.jpg" alt="Earth" class="planet-image"></td>
+              <td><img src="images/mars.jpg" alt="Mars" class="planet-image"></td>
+            </tr>
+          
             <tr>
               <td class="data-label">Mass (10^24 kg)</td>
               <td class="data-value">0.330</td>
@@ -74,31 +81,11 @@
               <td class="data-value">24.0</td>
               <td class="data-value">24.7</td>
             </tr>
+          </thead>  
           </tbody>
         </table>
     </section>
-    <section id="images-section">
-      <link rel="stylesheet" href="styles.css">
-       <h2>Planet Images</h2>
-       <div class="image-gallery image-row">
-          <figure>
-            <img src="images/mercury.jpg" alt="Mercury Planet" class="planet-image">
-            <figcaption>Mercury</figcaption>
-          </figure>
-          <figure>
-            <img src="images/venus.jpg" alt="Venus Planet" class="planet-image">
-            <figcaption>Venus</figcaption>
-          </figure>
-          <figure>
-            <img src="images/earth.jpg" alt="Earth Planet" class="planet-image">
-            <figcaption>Earth</figcaption>
-          </figure>
-          <figure>
-            <img src="images/mars.jpg" alt="Mars Planet" class="planet-image">
-            <figcaption>Mars</figcaption>
-          </figure>
-        </div>
-    </section>
+
     </main>
     <footer id="main-footer">
         <p>Data sourced from NASA Goddard Space Flight Center. &copy; 2025 Planetary Exploration Lab.</p>
